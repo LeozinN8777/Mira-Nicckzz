@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    /* background-color: rgb(41, 41, 41); */
+    background-image: url("https://cdn.discordapp.com/attachments/1029451345809379358/1032794467666759720/7XAYMNZ56VHQ3EP3L6LVO6CL7M.jpg");
+    background-repeat: repeat;
+    background-size: 50%;
+    background-position: 4px 0px;
+} 
+
+h1 {
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    margin: -20px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: green
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10% 30%;
+    background-color: rgba(0, 128, 0, 0.493);
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid yellow;
+}
+
+.buttons input {
+    margin-top: 24px;
+    width: 512px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    outline: none;
+    text-align: center;
+    color: rgb(192, 192, 192);
+}
+
+.buttons button {
+    margin-top: 8px;
+    padding: 8px 230px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+}
+
+.buttons button:hover {
+    opacity: 0.4;
+}
+
+.datalist {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: auto;
+    margin: 0 110px;
+}
+
+.datalist input {
+    border-radius: 50px;
+    width: 240px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(192, 192, 192);
+}
+
+.resultado {
+    margin-top: 12px;
+}
+
+.resultado input {
+    padding: 10px 60px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+
+.resultado button {
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+}
+
+.github-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+
+/* Remover setas do input de numeros  */
+.buttons input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

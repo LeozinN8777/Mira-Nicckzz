@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <script  src="./script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1029451345809379358/1032458685194190978/cross2.jpg" type="image/x-icon">
+
+    <title>Conversor de mira</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="title">
+    <h1>Conversor de mira Nicckzz</h1>
+    <h2>Simples, direto e preciso.</h2>
+    </div>
+
+    <div class="datalist">
+    <label for="game-before"></label>
+<input list="games-before" name="game-before" id="game-before"placeholder="Converter de:">
+
+<datalist class="game-before" id="games-before">
+  <option value="Overwatch2">
+  <option value="Valorant">
+  <option value="Fortnite"> 
+  <option value="CS">
+  <option value="Warzone">
+</datalist>
+    <label for="game-after"></label>
+<input list="games-after" name="game-after" id="game-after" placeholder="Converter para:">
+<datalist id="games-after">
+  <option value="Overwatch2">
+  <option value="Valorant">
+  <option value="Fortnite">
+  <option value="CS">
+  <option value="Warzone">
+</datalist>
+    </div>
+    <div class="buttons">
+        <input type="number" name="sens" id="sens" placeholder="Insira a Sens. que deseja converter"> <br>
+        <button type="submit" onclick="converter() "name="converter" id="converter">Converter</button>
+        </div>
+
+    <div id="resultado" class="resultado">
+        <button onclick="copy()" id="copy"> <input id="resultado" type="text" value="Clique para copiar a sens."> </button>
+    </div>
+    <a href="https://github.com/LeozinN8777" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="github-logo">
+      </a>
+</div>
+</body>
+</html>
